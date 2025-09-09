@@ -1,0 +1,41 @@
+# Configurazione del Blog Generator
+# File per gestire input completi e configurazioni avanzate
+
+# Configurazione modelli LLM
+models:
+  research: "gpt-4o-mini"  # Modello economico per ricerca
+  outline: "gpt-4o"       # Modello avanzato per struttura
+  drafting: "gpt-4o"      # Modello avanzato per scrittura
+  optimization: "gpt-4o"  # Modello avanzato per ottimizzazione
+  analysis: "gpt-4o-mini" # Modello economico per analisi intermedia
+
+# Template di input completo
+input_template:
+  topic: ""
+  intent: ""           # Intento dell'articolo (informativo, commerciale, educativo)
+  target_website: ""   # Sito web di destinazione per il traffico
+  business_activity: ""# Attività/servizio da sponsorizzare
+  target_audience: ""  # Pubblico target
+  tone: ""            # Tono di voce (professionale, casual, tecnico)
+  language: "it"      # Lingua dell'articolo
+  word_count: 2000    # Lunghezza target
+  include_cta: true   # Includere call-to-action
+  seo_focus: true     # Focus SEO avanzato
+
+# Configurazioni SEO avanzate
+seo_config:
+  keyword_density:
+    primary: 1.5      # Densità keyword primarie (%)
+    secondary: 0.8    # Densità keyword secondarie (%)
+  readability_target: 65  # Punteggio Flesch target
+  internal_links_min: 3   # Numero minimo link interni
+  external_links_min: 5   # Numero minimo link esterni
+  meta_title_max: 60      # Lunghezza massima meta title
+  meta_desc_max: 155      # Lunghezza massima meta description
+
+# Configurazioni output
+output:
+  save_intermediate: true    # Salvare risultati intermedi
+  generate_analytics: true   # Generare report analytics
+  include_schema: true       # Includere schema markup
+  format: "markdown"         # Formato output (markdown, html)
