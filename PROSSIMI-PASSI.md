@@ -1,0 +1,1 @@
+creare uno step uno in cui l'LLM prende l'input dell'user, che sarà anche un prompt e in base a quello gestirà gli step e i system prompts successivi per generare l'articolo. (l'attuale sistema di input è troppo debole).

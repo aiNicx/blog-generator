@@ -127,5 +127,4 @@ blog_generator.log
 # Generated files
 *.json
 *_analytics.json
-*.md
 blog_*.md
